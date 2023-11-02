@@ -1,0 +1,5 @@
+mkdir .github    #robosys2022のリポジトリのトップディレクトリで
+cd .github/      #.githubディレクトリは隠れディレクトリになるので注意（lsで出てこない。ls -aで出る。）
+mkdir workflows
+cd workflows/
+touch test.yml   #「./robosys2022/.github/workflows/test.yml」ができているとOK
